@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+  background-color: #f9f9f9;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  background: linear-gradient(to right, #960083, #ec1063);
+  color: #fff;
+  padding-top: 10px;
+  min-height: 50px;
+  border-bottom: 3px solid #ec1063;
+}
+header #branding {
+  float: left;
+}
+header #branding h1 {
+  margin: 0;
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 15px;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+header #branding,
+header .active a {
+  color: #fff;
+  font-weight: bold;
+}
+header a:hover {
+  color: #960083;
+  font-weight: bold;
+}
+.search {
+  padding: 15px 0;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.search input[type="text"] {
+  width: 60%;
+  padding: 10px;
+}
+.search input[type="submit"] {
+  padding: 12px 15px;
+  background: linear-gradient(to right, #960083, #ec1063);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.col-5 {
+  width: 20%;
+  height: 100px;
+  text-align: center;
+  border: 1px solid;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.box {
+  border: 1px solid;
+}
+.box .col-5 {
+  width: 25%;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid;
+}
